@@ -2,6 +2,8 @@
 
 A financial simulation app built with **Streamlit**, **DuckDB**, and **Python 3.13**. This tool uses historical S&P 500 data to project how initial investments and monthly contributions would have grown over any period in history.
 
+![S&P 500 App Dashboard](assets/screenshot.png)
+
 ## 🚀 Features
 * **Recursive SQL Simulation:** Uses DuckDB's `WITH RECURSIVE` common table expressions for portfolio compounding.
 * **Automated Seeding:** Built-in data ingestion from Yahoo Finance via `yfinance` during the Docker build process.
@@ -13,6 +15,8 @@ A financial simulation app built with **Streamlit**, **DuckDB**, and **Python 3.
 ## 🛠️ Project Structure
 ```text
 .
+├── assets/
+│   ├── screenshot.png  # Documentation assets
 ├── src/
 │   ├── app.py          # Streamlit dashboard & simulation logic
 │   └── seed_db.py      # Database initialization script
