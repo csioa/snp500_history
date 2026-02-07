@@ -1,0 +1,13 @@
+# Local dev
+scratch.py
+README.md
+Dockerfile
+
+# Databases
+**.duckdb
+
+.venv
+.uv
+__pycache__
+*.duckdb
+.python-version
