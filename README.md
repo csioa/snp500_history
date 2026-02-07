@@ -54,12 +54,10 @@ source .venv/bin/activate
 
 ```bash
 uv pip install -r requirements.txt
-Seed the database:
 ```
 ### 3. Seed the database:
 ```bash
 uv run src/seed_db.py
-Launch the dashboard:
 ```
 
 ### 4. Launch the dashboard:
