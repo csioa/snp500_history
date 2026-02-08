@@ -36,7 +36,7 @@ docker build -t snp500-simulator .
 
 ### 2. Run the Container
 ```bash
-docker run -p 8501:8501 --name stock-sim snp500-simulator
+docker run --rm -p 8501:8501 snp500-simulator
 ````
 
 ### 3. Access the App
